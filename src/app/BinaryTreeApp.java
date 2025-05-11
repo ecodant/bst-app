@@ -86,7 +86,7 @@ public class BinaryTreeApp extends JFrame {
 		JPanel panel = new JPanel(new GridLayout(1, 4, 5, 5));
 
 		JButton addButton = new JButton("Add");
-		JButton existsButton = new JButton("Exists");
+		JButton existsButton = new JButton("ExistingChecker");
 		JButton deleteButton = new JButton("Delete");
 		JButton clearButton = new JButton("Clear");
 
@@ -151,10 +151,10 @@ public class BinaryTreeApp extends JFrame {
 	private JPanel createAdditionalMethodsPanel() {
 		JPanel panel = new JPanel(new GridLayout(1, 4, 5, 5));
 
-		JButton minNodeButton = new JButton("Min Node");
-		JButton maxNodeButton = new JButton("Max Node");
-		JButton findMinButton = new JButton("Find Min");
-		JButton isLeafButton = new JButton("Is Leaf?");
+		JButton minNodeButton = new JButton("MinNode");
+		JButton maxNodeButton = new JButton("MaxNode");
+		JButton findMinButton = new JButton("FindMin");
+		JButton isLeafButton = new JButton("IsLeaf");
 
 		minNodeButton.addActionListener(e -> getMinNode());
 		maxNodeButton.addActionListener(e -> getMaxNode());
@@ -189,7 +189,7 @@ public class BinaryTreeApp extends JFrame {
 			if (exists) {
 				outputArea.setText("Value " + value + " exists in the tree.");
 			} else {
-				outputArea.setText("Value " + value + " does not exist in the tree.");
+				outputArea.setText("Value " + value + " doesn't exist in the tree.");
 			}
 			inputField.setText("");
 		} catch (NumberFormatException e) {

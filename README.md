@@ -16,7 +16,7 @@ This Java application provides a graphical interface for working with binary sea
 | `delete(int value)` | Deletes a node from the tree         | `boolean`   |
 | `clear()`           | Removes all nodes from the tree      | `void`      |
 
-### Tree Traversal Methods
+### Tree Iterate Methods
 
 | Method                  | Description                                                | Return Type          |
 | ----------------------- | ---------------------------------------------------------- | -------------------- |
@@ -47,10 +47,10 @@ This Java application provides a graphical interface for working with binary sea
 
 The graphical interface is organized into several tabs:
 
-1. **Basic Operations** - Contains buttons for core operations like adding, checking existence, deleting nodes, and clearing the tree
-2. **Traversal** - Contains buttons for different tree traversal methods
+1. **Operations** - Contains buttons for core operations like adding, checking existence, deleting nodes, and clearing the tree
+2. **Iterate** - Contains buttons for different tree traversal methods
 3. **Tree Properties** - Contains buttons for checking properties like emptiness, weight, height, etc.
-4. **Additional Methods** - Contains buttons for operations like finding minimum/maximum nodes
+4. **Other Methods** - Contains buttons for operations like finding minimum/maximum nodes
 
 ## How to Use
 
